@@ -1,0 +1,19 @@
+
+{
+  "manifest_version": 3,
+  "name": "LiveChat Supervisor Pro",
+  "version": "1.0",
+  "description": "Monitor respon agent dan keyword sensitif di LiveChatInc",
+  "permissions": ["storage", "notifications"],
+  "host_permissions": ["https://my.livechatinc.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://my.livechatinc.com/*"],
+      "js": ["content.js"],
+      "css": ["inject.css"]
+    }
+  ]
+}
