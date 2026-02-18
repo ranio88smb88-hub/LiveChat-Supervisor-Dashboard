@@ -1,0 +1,5 @@
+{
+  "name": "LiveChat Supervisor Dashboard",
+  "description": "A comprehensive simulation and implementation environment for the LiveChat Supervisor Chrome Extension, featuring real-time DOM monitoring, response timers, and keyword detection.",
+  "requestFramePermissions": []
+}
