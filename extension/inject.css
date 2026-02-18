@@ -1,0 +1,39 @@
+
+#supervisor-panel {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    background: #1a1a1a;
+    color: white;
+    z-index: 999999;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    font-family: sans-serif;
+    border: 1px solid #333;
+}
+
+.sup-header {
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    color: #4CAF50;
+}
+
+.sup-stats {
+    font-size: 11px;
+}
+
+/* Highlight pesan di chat real */
+.livechat-supervisor-alert {
+    animation: pulse-red 2s infinite;
+}
+
+@keyframes pulse-red {
+    0% { background-color: #fff; }
+    50% { background-color: #ffebeb; }
+    100% { background-color: #fff; }
+}
